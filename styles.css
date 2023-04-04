@@ -1,0 +1,51 @@
+/* Set default styles for body, headings, and paragraphs */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    292deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(218, 160, 35, 0.08175770308123254) 100%
+  );
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 50px 0;
+}
+
+p {
+  font-size: 36px;
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+/* Center the content vertically and horizontally */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the time element */
+#time {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px #f1f1f1;
+  padding: 20px;
+}
